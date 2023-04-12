@@ -1,0 +1,159 @@
+.tweet-card {
+  background-color: black;
+  border: 0.5px solid rgb(47, 51, 54);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: #e1e8ed;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+.tweet-card .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+  /* float: left; */
+}
+
+.avatar {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.tweet-card .username {
+  font-weight: bold;
+}
+
+.tweetImage {
+  width: 96.5%;
+  border-radius: 17.5px;
+  margin-top: 3%;
+}
+
+.tweetLayout1{
+  width: 10%;
+  padding: 3% 0 0 2%;
+}
+.tweetLayout2{
+  width: 90%;
+  padding: 3% 0 0 3%;
+}
+.tweetLayout3{
+  width: 90%;
+  padding: 3% 0 0 3%;
+}
+
+.tweet-card .timestamp {
+  color: #657786;
+}
+
+.tweet-card .message {
+  font-size: 16px;
+}
+
+.tweet-card .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 90%;
+  margin: 2.5%;
+  width: 75%;
+}
+
+.tweet-card .action-icon {
+  margin-left: 12px;
+  color: rgb(113, 118, 123);
+}
+
+.tweet-card .action-icon:link {
+  text-decoration: none;
+}
+
+.tweet-card .action-icon:hover {
+  opacity: 50%;
+  transition: 200ms;
+}
+
+
+/* Upload Image and tweet*/
+.tweetContainer {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  border: 1px solid rgb(47, 51, 54);
+  border-right: none;
+  border-left: none;
+  margin-bottom: 5%;
+  margin-top: 7.5%;
+}
+
+.tweetText {
+  flex-grow: 2;
+  font-size: 18px;
+  line-height: 24px;
+  color: #e1e8ed;
+  border: none;
+  outline: none;
+}
+
+label[for="fileImage"] {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+label[for="fileImage"] svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.tweetButton:hover {
+  background-color: #0c85d0;
+  color: #e1e8ed;
+  background-color: #1da1f2;
+}
+
+
+.tweetActions {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.tweetButton {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  outline: none;
+  min-width: 15%;
+  max-width: auto;
+  margin-right: 3%;
+}
+
+.tweetButtonDisabled{
+  opacity: 60%;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  outline: none;
+  min-width: 15%;
+  max-width: auto;
+  margin-right: 3%;
+}

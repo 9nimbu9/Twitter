@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tweet-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .follow-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 20px;
+  }
+  
+  .follow-card img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .follow-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+  }
+  
+  .follow-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+
+
+
+
+  
+  
+  

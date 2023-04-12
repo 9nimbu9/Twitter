@@ -1,0 +1,118 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+.tweetText{
+    height: 50px;
+    width: 40%;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.tweetArea{
+    border: 1px solid rgb(47, 51, 54);
+    text-align: left;
+    padding: 0%;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userIcon{
+    width: 48px;
+    height: 48px;
+    /* margin: 2%; */
+    display: inline-block;
+}
+.tweetContent{
+    display: inline-block;
+    width: 80%;
+    margin-top: 2%;
+    padding-left: 4%;
+}
+.userNameTag{
+    color: gray;
+    font-weight: 100;
+}
+.userNameTag:hover{
+    color: gray;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.pfpArea{
+    display: inline-block;
+    margin-top: 2%;
+    padding-left: 5%;
+}
+.like:hover{
+    stroke: rgb(249, 24, 128);
+    background-color: rgb(249, 24, 128,0.3);
+    border-radius: 100%;
+    transition: 500ms;
+}
+.comment:hover{
+    stroke: #00acee;
+    transition: 500ms;
+}
+.share:hover{
+    stroke: #00acee;
+    transition: 500ms;
+}
+.reTweet:hover{
+    stroke: #28df77;
+    transition: 500ms;
+}
+.homeInfoIcon{
+    fill: #E1E8ED;
+    margin-bottom: 55%;
+    width: 60%;
+    margin-right: 50%;
+    padding: 0;
+}
+.homeInfoIcon:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 300ms;
+}
+.leftHandSide{
+    position: fixed;
+    left: 10%;
+}
+.tweetBox:hover{
+    text-decoration: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.avatarHome {
+    width: 48px;
+    border-radius: 50%;
+  }
+
+
+/* Like Button Animation */
+
+
+/* .tweetProfile{
+    display: inline-block;
+    width: 100%;
+} */
+
